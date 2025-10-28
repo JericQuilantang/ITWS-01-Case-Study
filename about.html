@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>About - College of Information and Communications Technology</title>
+<link rel = "icon" href = 
+"logo.png" 
+        type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="overflow-y: hidden;">
+<button onclick="topFunction()" id="myBtn1" class="fa fa-arrow-up"></button>
+ <header>
+  <div>
+      <!--NAVIGATION BAR-->
+    <nav class="navigation">
+        <div class="navbar-left">
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a class="active"  href="#about"><i class="fa fa-user"></i> About</a>
+        </div>
+      <div class="navbar-right">
+          <a href="#contact"><i class="fa fa-phone"></i> Contact</a>
+        <a href="#news"><i class="fa fa-newspaper-o"></i> News</a>
+          <a href="index.html">
+          <i class="fa fa-star"></i> Goals</a>
+      </div>
+    </nav>
+<!--BODY-->
+  </div>
+</header>
+    
+<!--
+        <img class="triangle"src="triangle.png" style="left: -10%;">
+        <img class="triangle"src="triangle.png" style="left: 0%">
+        <img class="triangle"src="triangle.png" style="left: 10%">
+-->
+    <div class="abt">
+        <img class="logobg" src="backgroundlogopng.png" style="bottom: -20%; right: -15%;opacity: 0.1">
+        <h1 style="font-family: 'Righteous', cursive;">ABOUT</h1>
+        <h4 style="text-align: justify">We are students who are tasked to do a website about a certain college department which is the CICT Department. We applied all the learnings that we gained from the entire semester to build and to design this website. Most importantly, the final product of this website will show our skills and capabilities as a CICT student and it will also show all the efforts that we put into this website. We know there’s a lot of things that we can do to improve this website, that’s why our mission is to show you what we can do for now as students and also to build this website to remind ourselves and also all the students out there that this is only the beginning of our journey, we can still learn a lot of things and we will definitely encounter some problems in our life as a student but all those struggles and learnings will make us a better person and also a better student.</h4>
+        <hr>
+        <h2>GROUP MEMBERS</h2>
+        <div class="row">
+  <div class="column">
+    <img src="sam.png" alt="Sam" style="width:80%">
+        <span style="display: block">Sam Velasco</span>
+      <h5 style="display: block">Member</h5>
+  </div>
+ <div class="column">
+    <img src="jeric.png" alt="Jeric" style="width:80%">
+    <span style="display: block">Jeric Ivan Quilantang</span>
+      <h5 style="display: block">Member</h5>
+  </div>
+  <div class="column">
+    <img src="jb.png" alt="Mark JB" style="width:80%">
+      <span style="display: block">Mark JB Taguiam</span>
+      <h5 style="display: block">Member</h5>
+  </div>
+</div>
+    </div>
+</body>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+  <div class="social-wrapper">
+    <ul>
+      <li>
+        <a href="twitter.com/neust" target="_blank">
+          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/neustasc/" target="_blank">
+          <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/neustcictofficial" target="_blank">
+          <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCRbQjvCeRk-FHz_uvyVBM-g" target="_blank">
+          <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+      </li>
+    </ul>
+  </div>
+
+  <nav class="footer-nav" role="navigation">
+    <p>Copyright &copy; 2021-
+     ITWS-01 Case Study.</p>
+  </nav>
+</footer>
+<!-- #colophon -->
+    <script>
+var video = document.getElementById("video-bg");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+var mybutton = document.getElementById("myBtn1");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>
